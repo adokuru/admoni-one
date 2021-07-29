@@ -1,0 +1,36 @@
+/* ./src/tailwind.css */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-primary {
+  background-color: #ffcc00;
+}
+.text-primary {
+  color: #ffcc00;
+}
+.text-secondary {
+  color: #cdffcc;
+}
+.bg-secondary {
+  background-color: #cdffcc;
+}
+.bg-hero {
+  background-color: #fbf1cc;
+}
+
+@variants group-hover, hover, focus, active {
+  .text-primary {
+    color: #ffcc00;
+  }
+  .bg-primary {
+    background-color: #ffcc00;
+  }
+  .text-secondary {
+    color: #cdffcc;
+  }
+  .bg-secondary {
+    color: #cdffcc;
+  }
+}
