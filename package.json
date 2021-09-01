@@ -1,0 +1,12 @@
+{
+  "name": "admoni",
+  "version": "1.0.0",
+  "description": "Admoni Inc. Smart Mobile Ads solutions for tommorrow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tails-start": "npx tailwindcss -i ./css/style.css -o ./css/custom.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
